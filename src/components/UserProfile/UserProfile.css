@@ -1,0 +1,36 @@
+.UserProfile main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.UserProfile main > div {
+  display: flex;
+  align-items: center;
+}
+
+.UserProfile main > div img {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.UserProfile .user-info h2 {
+  color: #3D3D4E;
+}
+
+.UserProfile .user-info > div p {
+  margin: 5px 0;
+  color: #999FAA;
+}
+
+.UserProfile .user-info > div > .Button {
+  max-width: 100px;
+  padding: 5px;
+}
+
+.UserProfile .no-posts {
+  text-align: center;
+  color: #999FAA;
+}

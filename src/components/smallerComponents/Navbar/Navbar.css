@@ -1,0 +1,20 @@
+.Navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Navbar h2 span {
+  color: #F15F31;
+}
+
+.Navbar > ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+}
+
+.Navbar .navbar-active {
+  color: #F15F31;
+}

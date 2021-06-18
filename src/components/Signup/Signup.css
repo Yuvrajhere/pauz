@@ -1,0 +1,37 @@
+.Signup {
+  display: flex;
+  flex-direction: column;
+}
+
+.Signup main {
+  display: flex;
+  justify-content: center;
+}
+
+.Signup main > div > h1 {
+  font-size: 44px;
+  color: #f15f31;
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+.Signup main > div > p {
+  font-weight: 500;
+  margin: 20px 0 20px 10px;
+}
+
+.Signup main > div > p span {
+  color: #f15f31;
+}
+
+.Signup .Button {
+  margin-top: 20px;
+}
+
+.Signup main > div > div {
+  margin-top: 20px;
+}
+
+.Signup main > div > div a {
+  color: #f15f31;
+}

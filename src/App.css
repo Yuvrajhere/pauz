@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input:focus, button:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+li {
+  list-style: none;
+}
+
+.App {
+  background-color: #F0F2F5;
+  font-family: "Inter", sans-serif;
+
+  width: 100vw;
+  min-height: 100vh;
+  min-width: 100vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-1 {
+  width: 100%;
+  min-width: 300px;
+  max-width: 95vw;
+  min-height: 100vh;
+}
+
+.container-2 {
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 14px;
+}

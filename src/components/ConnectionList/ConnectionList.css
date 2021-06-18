@@ -1,0 +1,33 @@
+.ConnectionList h1 {
+  color: #f15f31;
+}
+
+/* .ConnectionList main {
+  display: flex;
+  flex-direction: column;
+} */
+
+.ConnectionList .connection {
+  display: flex;
+  margin: 20px 0;
+  padding: 10px;
+  border: 2px solid #F0F2F5;
+  border-radius: 14px;
+  max-width: 300px;
+  cursor: pointer;
+}
+/* I was here, just finished giving hover effect to the cards, these cards to should open user profiles, where we can click on unfriend */
+.ConnectionList .connection:hover {
+  background-color: rgba(241, 94, 49, 0.05);
+}
+
+.ConnectionList .connection img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.ConnectionList .connection p:last-child {
+  color: #999FAA;
+}

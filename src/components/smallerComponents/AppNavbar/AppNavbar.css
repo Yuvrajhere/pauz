@@ -1,0 +1,94 @@
+.AppNavbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.AppNavbar .search-input {
+  justify-self: center;
+  align-self: center;
+
+  display: flex;
+  align-items: center;
+
+  width: 50%;
+  max-width: 400px;
+}
+
+.AppNavbar .search-input input {
+  width: 100%;
+  padding-left: 20px;
+  line-height: 40px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: #f5f8fc;
+  border-style: none;
+}
+
+.AppNavbar .search-input button {
+  border: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+  background-color: #f5f8fc;
+  padding: 11px;
+  cursor: pointer;
+}
+
+.AppNavbar .menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: #ffffff;
+  
+  width: 0;
+  height: 100vh;
+
+  overflow-x: hidden;
+  transition: 500ms;
+  z-index: 3;
+
+  position: fixed;
+  top: 0;
+  right: 0;
+  
+
+  box-shadow: -2px 0px 20px 1px #000;
+}
+
+.AppNavbar .menu .menu-close-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 40px;
+  margin-right: 30px;
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+
+.AppNavbar .menu ul {
+  margin: 20vh;
+}
+
+.AppNavbar .menu ul li a {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.AppNavbar .menu ul li a.active {
+  color: #F15F31;
+}
+
+.AppNavbar .menu ul li a img {
+  margin-right: 10px;
+  height: 20px;
+  width: 20px;
+}
+
+.AppNavbar  .menu-btn {
+  cursor: pointer;
+  height: 20px;
+  width: 25px;
+}

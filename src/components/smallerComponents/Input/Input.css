@@ -1,0 +1,22 @@
+.Input {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.Input label {
+  margin: 10px 0 5px 20px;
+  color: #3D3D4E;
+}
+
+.Input input {
+  padding: 10px 20px;
+  background-color: #F5F8FC;
+  border: none;
+  border-radius: 14px;
+  border: 2px solid #F5F8FC;
+}
+
+.Input input:focus {
+  border: 2px solid #F15F31;
+}

@@ -1,0 +1,36 @@
+.Login main {
+  display: flex;
+  justify-content: center;
+}
+
+.Login main > div > h1 {
+  font-size: 44px;
+  color: #f15f31;
+  font-weight: 700;
+}
+
+.Login main > div > p {
+  font-weight: 500;
+}
+
+.Login main > div > p span {
+  color: #f15f31;
+}
+
+.Login main > div > img {
+  height: 180px;
+  width: 240px;
+  margin-top: 20px;
+}
+
+.Login .Button {
+  margin-top: 20px;
+}
+
+.Login main > div > div {
+  margin-top: 20px;
+}
+
+.Login main > div > div a {
+  color: #f15f31;
+}

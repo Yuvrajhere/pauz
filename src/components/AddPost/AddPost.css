@@ -1,0 +1,41 @@
+.AddPost main {
+  display: flex;
+  justify-content: center;
+}
+
+.AddPost main > div > h1 {
+  color: #F15F31;
+}
+
+.AddPost main > div > p {
+  color: #999FAA;
+  margin: 10px 0;
+}
+
+.AddPost main form > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.AddPost main form > div label {
+  margin-left: 10px;
+}
+
+.AddPost main form textarea {
+  border: none;
+  border-radius: 14px;
+  resize: none;
+  height: 200px;
+  background-color: #F5F8FC;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.AddPost main form textarea:focus {
+  outline: none;
+  border: 1px solid #f15f31;
+}
+
+.AddPost main form input {
+  margin-bottom: 20px;
+}

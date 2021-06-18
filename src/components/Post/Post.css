@@ -1,0 +1,132 @@
+.Post {
+  padding: 14px 10px;
+  min-width: 260px;
+  max-width: 400px;
+}
+
+.Post .post-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 5px;
+}
+
+.Post .post-header .user {
+  display: flex;
+  align-items: center;
+}
+
+.Post .post-header .user img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.Post .post-header .user p {
+  font-weight: 600;
+}
+
+.Post .post-header > p {
+  font-size: 12px;
+  color: #999FAA;
+}
+
+.Post .post-content {
+  margin: 10px;
+}
+
+.Post .post-content > img {
+  margin: 10px 0;
+  width: 100%;
+}
+
+.Post .comment-section {
+  border-top: 3px solid #F0F2F5;
+}
+
+.Post .comment-section .comments {
+  display: flex;
+  flex-direction: column;
+
+  margin: 20px 0;
+  padding: 0 20px;
+}
+
+.Post .comments .comment {
+  display: flex;
+  align-items: flex-start;
+
+  margin-bottom: 14px;
+}
+
+.Post .comments .comment > img {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.Post .comment > div {
+  background: #F5F8FC;
+  padding: 10px 20px;
+
+  border-radius: 14px;
+}
+
+.Post .comment > div p:first-child {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.Post .comment > div p:first-child span {
+  font-size: 12px;
+  color: #999FAA;
+}
+
+.Post .comment > div p:last-child {
+  margin: 10px 0;
+}
+
+.Post .comment-section > a {
+  margin-left: 20px;
+  font-weight: 500;
+  color: #F15F31;
+  cursor: pointer;
+}
+
+.Post .comment-section > form {
+  margin-top: 20px;
+  padding: 0 10px ;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Post .comment-section > form img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.Post .comment-section > form input {
+  margin: 0px 10px;
+  border: none;
+  border-radius: 14px;
+  background-color: #f5f8fc;
+  padding: 10px;
+  width: 100%;
+}
+
+.Post .comment-section > form .Button {
+  width: 20%;
+}
+
+@media (max-width: 500px) {
+  .Post .comment-section > form .Button {
+    padding: 5px;
+    width: 100%;
+    max-width: 60px;
+  }
+}

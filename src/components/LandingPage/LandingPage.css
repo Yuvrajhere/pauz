@@ -1,0 +1,123 @@
+.LandingPage main {
+  display: flex;
+  justify-content: center;
+}
+
+.LandingPage main > div {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.LandingPage .main-right > img {
+  width: 285px;
+  height: 285px;
+  align-self: center;
+}
+
+.LandingPage .main-right {
+  max-width: 300px;
+}
+
+.LandingPage .main-right h1 {
+  font-weight: 1500;
+  font-size: 44px;
+  color: #f15f31;
+}
+
+.LandingPage .main-right p {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 20px 0;
+}
+
+.LandingPage .main-right p span {
+  color: #f15f31;
+}
+
+.LandingPage .main-right .buttons .Button:first-of-type  {
+  margin-bottom: 20px
+}
+
+.LandingPage .info {
+  padding: 80px 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: #3d3d4e;
+}
+
+.LandingPage .info > h1 {
+  font-size: 52px;
+  color: #f15f31;
+  margin-bottom: 40px;
+}
+
+.LandingPage .info > div {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.LandingPage .info-card {
+  max-width: 300px;
+}
+
+.LandingPage  .info-card h1 {
+  color: #fff;
+}
+
+.LandingPage .info-card p {
+  margin-top: 10px;
+  font-size: 20px;
+  text-align: justify;
+  color: rgb(187, 187, 187);
+}
+
+.LandingPage .works {
+  background-color: #fff;
+}
+
+.LandingPage .works .info-card h1 {
+  color: #3d3d4e;
+}
+
+.LandingPage footer a {
+  color: #f15f31;
+}
+
+.LandingPage footer .socials {
+  max-width: 260px;
+  margin-top: 20px;
+}
+
+.LandingPage footer .socials a {
+  height: 40px;
+  width: 40px;
+}
+
+.LandingPage footer .socials img {
+  height: 40px;
+  width: 40px;
+}
+
+@media screen and (max-width: 800px) {
+  .LandingPage main > div {
+    flex-direction: column;
+  }
+
+  .LandingPage .info > div:first-of-type {
+    flex-direction: column;
+  }
+
+  .LandingPage .info > div .info-card:first-child {
+    margin-bottom: 80px;
+  }
+
+  .LandingPage .info > div .info-card:nth-child(2) {
+    margin-bottom: 80px;
+  }
+}
